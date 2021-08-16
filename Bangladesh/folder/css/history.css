@@ -1,0 +1,176 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:#EAEE6E;
+  font-family: ;
+}
+
+#header-nav {
+  background-color:#1E5402 ;
+}
+#title{
+  color: #F1F318;
+  font-family:Times New Roman;
+    font-size: 48px;
+    font-display: block;
+    font-style: oblique;
+    text-shadow: 4px 4px 4px #aaa;
+}
+#bangla{
+  color: snow;
+  font-family: lora;
+  text-shadow: 4px 4px 4px #aaa;
+  
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2
+{
+  text-align: center;
+  font-weight: bold;
+  color: darkred;
+ font-display: block;
+
+}
+h3
+{
+  text-align: center;
+  font-weight: bold;
+  color: firebrick;
+ font-display: block;
+
+}
+h4
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 11px;
+  color: #D35400 ;
+}
+* {box-sizing: border-box;}
+#mySidenav a{
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  color: darkred;
+  border-radius: 0 3px 3px 0;
+  font-size: 12px;
+  font-style: oblique;
+  font-weight:bold;
+}
+#mySidenav a:hover{
+  left: 0;
+
+}
+#abc0{
+  top: 120px;
+  background-color:#A9CCE3;
+  
+}
+#abc1{
+  top: 160px;
+  background-color:#F9E79F ;
+  
+}
+#abc2{
+  top: 200px;
+  background-color:#D7BDE2  ;
+}
+#abc3{
+  top: 240px;
+  background-color:#BFC9CA ;
+}
+#abc4{
+  top: 280px;
+  background-color:#A9CCE3 ;
+}
+#abc5{
+  top: 320px;
+  background-color:#D5DBDB ;
+}
+#abc6{
+  top: 360px;
+  background-color:#E6B0AA ;
+}
+#abc7{
+  top:400px;
+  background-color: #ABB2B9;
+} 
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  display: table-cell;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:#873600  ;
+  padding: 10px;
+}
+#para
+{
+  color: yellow ;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.history
+{
+  font-family: cursive;
+  font-size: 15px;
+  font-display: block;
+  font-weight: bold;
+  color:darkgreen;
+  text-align: center;
+  margin-left: 30px;
+}
+#wiki
+{
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+.panel-footer{
+background-color:#610402  ;
+font-size: .75em;
+text-align: center;
+font-family: monospace;
+
+}
